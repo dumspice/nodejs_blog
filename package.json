@@ -2,15 +2,16 @@
   "name": "project",
   "version": "1.0.0",
   "description": "blog project to learn back-end with nodeJS expressJS",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dumspice/nodejs_blog.git"
   },
+  "type": "module",
   "keywords": [
     "blog",
     "api",
@@ -25,9 +26,12 @@
   },
   "homepage": "https://github.com/dumspice/nodejs_blog#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10",
+    "sass": "^1.90.0"
   }
 }
