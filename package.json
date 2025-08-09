@@ -1,0 +1,33 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "blog project to learn back-end with nodeJS expressJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumspice/nodejs_blog.git"
+  },
+  "keywords": [
+    "blog",
+    "api",
+    "backend",
+    "nodeJS",
+    "expressJS"
+  ],
+  "author": "dumspice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumspice/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/dumspice/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
